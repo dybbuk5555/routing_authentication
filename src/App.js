@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import ContextState from './context_state_config';
 
-import './App.css';
+const App = () => {
 
-export default function App() {
-  
-  return (
-    <div className="App">
-    </div>
-  );
+    return(
+      <div>
+     	 <ContextState />
+      </div>
+    )
 }
 
-
+export default App;
